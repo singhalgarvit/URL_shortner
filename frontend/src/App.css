@@ -1,0 +1,32 @@
+.App{
+    align-items: center;
+}
+.inpContainer{
+    display: flex;
+    justify-content: center;
+    padding-block:40px ;
+    width: 50%;
+    margin: auto;
+}
+.optContainer{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyBtn{
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 2s;
+}
+.copyBtn:hover{
+    background-color: rgba(77, 67, 67, 0.153);
+}
+.copyBtn:active{
+    scale: 0.9;
+}
